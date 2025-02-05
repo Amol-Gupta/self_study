@@ -1,0 +1,17 @@
+[project]
+name = "slides"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4>=4.12.3",
+    "click>=8.1.8",
+    "ipykernel>=6.29.5",
+    "ipympl>=0.9.6",
+    "matplotlib>=3.10.0",
+    "mpld3>=0.5.10",
+    "nodejs>=0.1.1",
+    "numpy>=2.2.2",
+    "requests>=2.32.3",
+]
