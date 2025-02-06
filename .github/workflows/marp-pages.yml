@@ -27,7 +27,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Copy images
-        run: mkdir build && cp -R slides/img build/img && cp -R slides/themes build/themes
+        run: mkdir -p build && cp -R slides/img build/img && cp -R slides/themes build/themes
 
       - name: Marp Build (README)
         uses: docker://marpteam/marp-cli:latest
