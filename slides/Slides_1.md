@@ -2,7 +2,7 @@
 marp: true
 theme: default
 paginate: true
-class: invert
+
 
 ---
 <!-- _paginate : Hide -->
@@ -12,7 +12,7 @@ class: invert
   mermaid.initialize({ startOnLoad: true });
 </script>
 
-## Financial markets, Algorithmic Trading & Statistical Arbitrage
+## Financial markets, Algorithmic Trading & Statistical Arbitrage (part 1)
 
 Amol Gupta
 
@@ -21,6 +21,7 @@ PHM 953 Self Study
 
 
 ---
+
 ## Type of orders
 
 - market
